@@ -1,0 +1,147 @@
+body {
+    background-color: antiquewhite;
+    font-family: 'Amatic SC', cursive;
+}
+header {
+    text-align: center;
+    margin: 2em;
+    font-size: 50px;
+    border-style: solid;
+}
+#sidenav {
+    display: inline-block;
+    width: 250px;
+    position: fixed;
+    color: #818181; 
+    font-size: 30px;
+}
+#sidenav a:hover {
+    background-color: #ccc; /* Dark grey background on mouse-over */
+}
+a:link {
+    color: black;
+    text-decoration: none;
+}
+  /* visited link */
+a:visited {
+    color: black;
+} 
+  /* selected link */
+a:active {
+    color: blue;
+}
+li {
+    list-style-type: none;
+}
+.row {
+    text-align: center;
+}
+#square {
+    border-top: 5px solid black;
+    border-left: 5px solid black;
+    border-right: 5px solid black;
+    border-bottom: 5px solid black;
+    background-color: antiquewhite;
+}
+.empty {
+    display: inline-block;
+    height: 100px;
+    width: 100px;
+    background-color: transparent;
+    border-radius: 50%;
+    position: relative;
+    /* border-bottom: 5px solid black; */
+}
+
+.x {
+    display: inline-block;
+    height: 100px;
+    width: 100px;
+    background-color: transparent;
+    border-radius: 5px;
+    position: relative;
+    /* border-bottom: 5px solid black; */
+}
+.x:after {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    content: "\274c";
+    font-size: 50px; 
+    color: red;
+    line-height: 100px;
+    text-align: center;
+    /* border-bottom: 5px solid black; */
+}
+.o {
+    display: inline-block;
+    height: 100px;
+    width: 100px;
+    background-color: transparent;
+    border-radius: 5px;
+    position: relative;
+    /* border-bottom: 5px solid black; */
+}
+.o:after {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    content: "\2B55";
+    font-size: 50px; 
+    color: black;
+    line-height: 100px;
+    text-align: center;
+    /* border-bottom: 5px solid black; */
+}
+#game {
+    width: 800px;
+    height: 694px;
+    text-align: center;
+    margin: auto;
+    background-color: blue;
+}
+#reset {
+    text-align: center;
+    padding: 5em;
+}
+#rules {
+    width: 1300px;
+    height: 694px;
+    text-align: center;
+    margin: auto;
+    border-style: solid;
+    padding: 2em;
+    display: flex;
+    justify-content: space-between;
+}
+article {
+    display: block;
+    padding: 1em;
+}
+#left {
+    float: left;
+    width: 50%;
+    background-color: lightcyan;
+    border-style: solid;
+}
+#right {
+    float: right;
+    width: 50%;
+    background-color: lightcyan;
+    border-style: solid;
+}
+h1 {
+    font-size: 50px;
+}
+h2 {
+    font-size: 40px;
+}
+p {
+    font-size: 30px;
+    /* font-family: Arial, Helvetica, sans-serif; */
+    line-height: 50px;
+}
